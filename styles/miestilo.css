@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: 'Solway';
+    background-color: #5184c7;
+    background-image: url("../img/b.png");
+}
+
+.a {
+    display: inline-block;
+}
+
+.cabecera {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cabecera .link-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cabecera .link-logo .logo {
+    width: 80px;
+    height: auto;
+}
+
+.cabecera .menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60%;
+}
+
+.cabecera .menu a {
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #2b72dd;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: 700;
+}
+
+.tamimg {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.fondo {
+    background-image: url("../img/unc.jpg");
+}
+
+.columna {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    margin-left: -1px;
+    margin-right: -1px;
+    vertical-align: top;
+}
+
+.columna-100 {
+    width: 100%;
+}
+
+.columna-50 {
+    width: 50%;
+}
+
+.columna-33 {
+    width: 33%;
+}
+
+.columna-25 {
+    width: 25%;
+}
+
+.seccion {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.centrar-video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.justificar-texto {
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.banner-home {
+    width: 100%;
+    height: auto;
+    display: block;
+}

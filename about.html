@@ -5,31 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca De</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Solway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/miestilo.css">
     <link rel="shortcut icon" href="img/logo.jpg">
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="about.html"> Acerca De</a>
-        <a href="contact.html">Contacto</a>
-    </nav>
+    <header class="cabecera">
+        <div class="container">
+            <a href="index.html" class="link-logo">
+                <img src="img/logo2.png" class="logo" alt="">
+            </a>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="about.html"> Acerca De</a>
+                <a href="contact.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>Informacion Personal</h1>
+        </section>
+
+        <section class="seccion">
+            <div class="container">
+                <div class="fila">
+                    <div class="columna columna-33">
+                        <h3 class="centrar-texto">Lugar donde vivo</h3>
+                        <li>
+                            <q>Cajamarca - Baños del Inca</q><br>
+                            <p class="justificar-texto">El lugar donde estoy viviendo actualmente es el Distrito de Baños del Inca que es un lugar turístico por la gran historia que estas tierras tienen</p>
+                        </li>
+                        <img class="banner-home" src="img/baños.jpg" alt="">
+                    </div>
+                    <div class="columna columna-33">
+                        <h3 class="centrar-teto">Comida favorita</h3>
+                        <li>
+                            <q>Cevivhe</q><br>
+                            <p class="justificar-texto">La comida que más me gusta y que por lo general se suele preparar una vez a la semana en mi casa es el ceviche el cual comenzó a ser mi comida preferida desde muy pequeño.</p>
+                        </li>
+                        <img class="banner-home" src="img/ceviche.jpg" alt="">
+                    </div>
+                    <div class="columna columna-33">
+                        <h3 class="centrar-texto">Hobby</h3>
+                        <li>
+                            <q>Ver peliculas y series</q><br>
+                            <p class="justificar-texto">Disfruto mucho ver películas o series especialmente las que tienen efectos especiales porque causan mucho asombro las cosas nuevas que normalmente no se pueden ver en la vida real.</p>
+                        </li>
+                        <img class="banner-home" src="img/peliculas.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="seccion">
+            <div class="container">
+                <h1>Un poco más de mi distrito</h1>
+                <video class="centrar-video" src="video/inca.mp4" controls autoplay muted loop></video>
+
+            </div>
+
+        </section>
+    </main>
+
     <h1>Informacion Personal</h1>
 
     <ul>
         <h2>Lugar donde vivo</h2>
         <li>
             <q>Cajamarca - Baños del Inca</q><br>
+            <p>El lugar donde estoy viviendo actualmente es el Distrito de Baños del Inca que es un lugar turístico por la gran historia que estas tierras tienen</p>
         </li>
         <img src="img/baños.jpg" alt="" width="400" height="400">
         <h2>Comida favorita</h2>
         <li>
             <q>Cevivhe</q><br>
+            <p>La comida que más me gusta y que por lo general se suele preparar una vez a la semana en mi casa es el ceviche el cual comenzó a ser mi comida preferida desde muy pequeño.</p>
         </li>
         <img src="img/ceviche.jpg" alt="" width="400" height="400">
         <h2>Hobby</h2>
         <li>
             <q>Ver peliculas y series</q><br>
+            <p>Disfruto mucho ver películas o series especialmente las que tienen efectos especiales porque causan mucho asombro las cosas nuevas que normalmente no se pueden ver en la vida real.</p>
         </li>
         <img src="img/peliculas.jpg" alt="" height="400" width="400">
     </ul>
