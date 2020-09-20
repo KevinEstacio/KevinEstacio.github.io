@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(37, 42, 46);
+}
+
+.seccion2 {
+    width: 865px;
+    background-color: white;
+    padding: 15px 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloque {
+    padding-left: 40px;
+}
+
+.align-r {
+    text-align: right;
+}
