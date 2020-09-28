@@ -5,59 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Personal</title>
+
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Solway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <!--Custom CSS-->
     <link rel="stylesheet" href="styles/estilopersonal.css">
+    <!--Icomoon CSS-->
+    <link rel="stylesheet" href="styles/icomoon/style.css">
     <link rel="shortcut icon" href="img/logo.jpg">
 </head>
 
 <body>
+    <nav class="bg-transparent container navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo2.png" class="logo link-logo" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link icon-library" href="index.html"> Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link icon-hipster" href="about.html"> Acerca De</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link icon-envelop" href="contact.html"> Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link icon-file-text2" href="carta05.html" target="_blank"> Carta</a>
+                </li>
 
-    <header class="cabecera">
-        <div class="container">
-            <a href="index.html" class="link-logo">
-                <img src="img/logo2.png" class="logo" alt="">
-            </a>
-            <nav class="menu">
-                <a href="index.html">Inicio</a>
-                <a href="about.html"> Acerca De</a>
-                <a href="contact.html">Contacto</a>
-                <a href="carta05.html" target="_blank">Carta</a>
-            </nav>
+            </ul>
         </div>
-    </header>
+    </nav>
 
     <main>
 
         <h1 class="titulo container">KEVIN MANUEL ÑONTOL ESTACIO</h1>
         <section class="seccion ">
             <div class="container">
-                <div>
-                    <div class="columna columna-100 centrar-texto">
-                    </div>
-                </div>
-                <div class="fondo">
-                    <div class="columna columna-50 ">
+                <div class="row fondo">
+
+                    <div class="col-xs-12 col-md-6 ">
                         <h2 class="titulo">Bienvenido a mi web personal</h2>
-                        <p class="justificar-texto"> Soy un estudiante de la Universidad Nacional de Cajamarca en la cual estoy estudiando la carrera de ingeniería de sistemas con el ánimo de superar mis conocimientos y habilidades cada ciclo más, me considero una persona responsable
+                        <p class="columna justificar-texto parrafo color1"> Soy un estudiante de la Universidad Nacional de Cajamarca en la cual estoy estudiando la carrera de ingeniería de sistemas con el ánimo de superar mis conocimientos y habilidades cada ciclo más, me considero una persona responsable
                             y trabajadora con la disponibilidad de poner en práctica todo lo aprendido durante mi formación universitaria. Mi objetivo principal es desarrollarme profesionalmente de tal modo que pueda cumplir mis metas en la vida.</p>
-                    </div>
-                    <div class="columna columna-50 ">
                         <img class="banner-home" src="img/kev.jpg" alt="">
 
                     </div>
 
+                    <div class="col-xs-12col-md-6 ">
+
+                    </div>
+
                 </div>
+
             </div>
         </section>
 
     </main>
-    <footer class="footerr container">
-        <p>Pagina web diseñada por Ñontol Estacio Kevin - setiembre 2020 <br> Baños del Inca - Jr Libertad sin numero
-        </p>
+
+    <div class="social-bar">
+        <a href="https://www.facebook.com/kevinmanuel.nontolestacio" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://wa.me/51925437812" class="icon icon-whatsapp" target="_blank"></a>
+        <a href="https://www.youtube.com/channel/UCDqL96FAFKErBg3cK2XSiAQ?view_as=subscriber" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/kevinnontol/" class="icon icon-instagram" target="_blank"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRCVTBbFGvqPkdmTXVHTzRwSvbJpCPQvGLbsgdjVzGZGbCJtKwpTMdkWjmjMsLZWjCflSL" class="icon icon-mail4" target="_blank"></a>
+
+
+    </div>
+    <footer class=" text-center">
+        <div>
+            <address>Desarrollador: Ñontol Estacio Kevin<br/>
+                <hr/><p class="fuente">Cajamarca - Baños del Inca</p>
+                <div class="footer-copyright text-center py-3 fuente">&copy; Setiembre 2020
+                </div>
+            </address>
+        </div>
     </footer>
 
 
-
+    <!--Bootstrap JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 

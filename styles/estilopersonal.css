@@ -5,7 +5,7 @@
 body {
     color: rgb(0, 0, 0);
     font-family: 'Solway';
-    background-color: #5184c7;
+    background-color: #1c5aac;
     background-image: url("../img/b.png");
 }
 
@@ -28,28 +28,37 @@ body {
     height: auto;
 }
 
+.link-logo {
+    width: 80px;
+    height: auto;
+}
+
 .cabecera .menu {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 60%;
+    margin-left: 13%;
 }
 
 .cabecera .menu a {
-    margin-left: 7px;
-    margin-right: 7px;
-    color: #004ec4;
-    font-size: 13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #0430f3;
+    font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-    font-weight: 600;
+    font-weight: 330;
 }
 
 .titulo {
     text-align: center;
     font-weight: 900;
     font-family: 'Playfair Display';
-    font-size: 50px;
+    font-size: 45px;
+}
+
+.parrafo {
+    font-size: 20px;
 }
 
 .tamimg {
@@ -57,9 +66,16 @@ body {
     height: 100px;
 }
 
+
+/*
 .container {
     width: 1170px;
     padding: 0 15px;
+    margin: 0 auto;
+}
+*/
+
+.centrar {
     margin: 0 auto;
 }
 
@@ -118,17 +134,83 @@ img {
 
 .banner-home {
     width: 100%;
-    height: auto;
+    height: 440px;
     display: block;
 }
 
 .footerr {
     background-color: rgb(0, 26, 255);
     color: cornsilk;
-    width: 1170;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     bottom: 0;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #3b5998;
+}
+
+.icon-youtube {
+    background: #E83028;
+}
+
+.icon-whatsapp {
+    background: #0bb90b;
+}
+
+.icon-instagram {
+    background: #f09433;
+}
+
+.icon-mail4 {
+    background: #000001;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.color1 {
+    background: rgba(84, 160, 255, 0.6);
+}
+
+.transparente {
+    background-color: #1d212400;
+}
+
+.tamimg {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
