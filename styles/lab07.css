@@ -1,0 +1,70 @@
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    width: 200px;
+}
+
+.extraer {
+    margin-right: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #f19d19;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.colorear {
+    padding: 0px;
+    border: 2px solid rgb(134, 51, 15);
+    background-color: #b74919;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.pderecha {
+    padding: 0px;
+}
+
+.color1 {
+    background-color: #1d6fa9;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.color2 {
+    background-color: #b74919;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.tamano {
+    font-size: 18px;
+}
+
+.datos {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 24px;
+}
+
+.link-logo {
+    width: 80px;
+    height: auto;
+}
+
+.fondo {
+    background: #c8f5e8;
+}
+
+.borde-punteado {
+    margin-top: 10px;
+    border: thick dotted #000000;
+}
+
+.espacio {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

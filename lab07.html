@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Solway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="styles/lab07.css">
+    <!--Icomoon CSS-->
+    <link rel="stylesheet" href="styles/icomoon/style.css">
+    <link rel="shortcut icon" href="img/logo.jpg">
+
+</head>
+
+<body>
+
+    <nav class="bg-transparent container navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo2.png" class="logo link-logo" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link icon-library" href="index.html"> Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link icon-hipster" href="about.html"> Acerca De</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link icon-envelop" href="contact.html"> Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link icon-file-text2" href="carta05.html" target="_blank"> Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="lab07.html"> Taller JS</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container fondo">
+            <div class=" text-center">
+                <h1>LAB 07: TALLER DE JAVASCRIPT</h1>
+            </div>
+            <section class="container">
+                <div class="espacio">
+                    <div class="row ">
+                        <div class="col-md-3 text-center pderecha">
+                            <p class="color1">Apellidos y nombres:</p>
+                        </div>
+                        <div class="col-md-4 pderecha tamano">
+                            <input type="text" placeholder="Ingreso apellidos y nombres" size="40" required>
+                        </div>
+                        <div class="col-md-2.5">
+                            <button class="extraer">Extraer</button>
+                        </div>
+                        <div class="col-md-2.5">
+                            <button class="colorear">Colorear</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 text-center pderecha">
+                            <p class="color1">Fecha de nacimiento:</p>
+                        </div>
+                        <div class="col-md-9 pderecha">
+                            <input type="date" name="" id="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-2 pderecha">
+                            <p class="color1 text-center">Apellido Paterno:</p>
+                        </div>
+                        <div class="col-md-3 pderecha tamano">
+                            <input type="text" size="s0" required>
+                        </div>
+                        <div class="col-md-3 pderecha">
+                            <p class="color2 text-center">Longitud del Paterno:</p>
+                        </div>
+                        <div class="col-md-3 pderecha tamano">
+                            <input type="text" size="s0" required>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-2 pderecha">
+                            <p class="color1 text-center">Apellido Materno:</p>
+                        </div>
+                        <div class="col-md-3 pderecha tamano">
+                            <input type="text" size="s0" required>
+                        </div>
+                        <div class="col-md-3 pderecha">
+                            <p class="color2 text-center">Edad:</p>
+                        </div>
+                        <div class="col-md-3 pderecha tamano">
+                            <input type="text" size="s0" required>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-2 pderecha">
+                            <p class="color1 text-center">Nombres:</p>
+                        </div>
+                        <div class="col-md-3 pderecha tamano">
+                            <input type="text" size="s0" required>
+                        </div>
+                        <div class="col-md-3 pderecha">
+                            <p class="color2 text-center">Mes en letras:</p>
+                        </div>
+                        <div class="col-md-3 pderecha tamano">
+                            <input type="text" size="s0" required>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
+        </div>
+
+
+
+        <div class="container text-justify borde-punteado">
+            <p>Cuando se presione el boton Extraer, se debe mostrar en forma separada apellido paterno, apellido materno y nombres y el mes en letras. Calcular la longitude del apellido y la edad. Cuando se presione en colorear, cambiar el color azul a rojo
+                y visiversa</p>
+        </div>
+    </main>
+
+</body>
+
+</html>
