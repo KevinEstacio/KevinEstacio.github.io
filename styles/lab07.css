@@ -68,3 +68,15 @@ button {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.azul {
+    background-color: #1d6fa9;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.rojo {
+    background-color: #b74919;
+    color: #ffffff;
+    font-size: 22px;
+}

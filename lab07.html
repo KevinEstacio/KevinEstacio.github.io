@@ -41,13 +41,14 @@
                     <a class="nav-link icon-file-text2" href="carta05.html" target="_blank"> Carta</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="lab07.html"> Taller JS</a>
+                    <a class="nav-link active icon-javascript" href="lab07.html"> Taller JS</a>
                 </li>
 
             </ul>
         </div>
     </nav>
     <main>
+
         <div class="container fondo">
             <div class=" text-center">
                 <h1>LAB 07: TALLER DE JAVASCRIPT</h1>
@@ -56,68 +57,68 @@
                 <div class="espacio">
                     <div class="row ">
                         <div class="col-md-3 text-center pderecha">
-                            <p class="color1">Apellidos y nombres:</p>
+                            <p id="1" class="color1">Apellidos y nombres:</p>
                         </div>
                         <div class="col-md-4 pderecha tamano">
-                            <input type="text" placeholder="Ingreso apellidos y nombres" size="40" required>
+                            <input type="text" placeholder="Ingreso apellidos y nombres" size="40">
                         </div>
                         <div class="col-md-2.5">
                             <button class="extraer">Extraer</button>
                         </div>
                         <div class="col-md-2.5">
-                            <button class="colorear">Colorear</button>
+                            <button id="colorear" class="colorear ">Colorear</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-3 text-center pderecha">
-                            <p class="color1">Fecha de nacimiento:</p>
+                            <p id="2" class="color1">Fecha de nacimiento:</p>
                         </div>
                         <div class="col-md-9 pderecha">
                             <input type="date" name="" id="">
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container text-center">
                     <div class="row ">
-                        <div class="col-md-2 pderecha">
-                            <p class="color1 text-center">Apellido Paterno:</p>
+                        <div class="col-md-2 pderecha ">
+                            <p id="3" class="color1 ">Apellido Paterno:</p>
                         </div>
                         <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" required>
+                            <input type="text" size="s0" disabled>
                         </div>
                         <div class="col-md-3 pderecha">
-                            <p class="color2 text-center">Longitud del Paterno:</p>
+                            <p id="6" class="color2">Longitud del Paterno:</p>
                         </div>
                         <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" required>
+                            <input type="text" size="s0" disabled>
                         </div>
                     </div>
-                    <div class="row ">
-                        <div class="col-md-2 pderecha">
-                            <p class="color1 text-center">Apellido Materno:</p>
+                    <div class="row text-center">
+                        <div class="col-md-2 pderecha ">
+                            <p id="4" class="color1 ">Apellido Materno:</p>
                         </div>
                         <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" required>
+                            <input type="text" size="s0" disabled>
                         </div>
                         <div class="col-md-3 pderecha">
-                            <p class="color2 text-center">Edad:</p>
+                            <p id="7" class="color2 ">Edad:</p>
                         </div>
                         <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" required>
+                            <input type="text" size="s0" disabled>
                         </div>
                     </div>
-                    <div class="row ">
-                        <div class="col-md-2 pderecha">
-                            <p class="color1 text-center">Nombres:</p>
+                    <div class="row text-center">
+                        <div class="col-md-2 pderecha ">
+                            <p id="5" class="color1 ">Nombres:</p>
                         </div>
                         <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" required>
+                            <input type="text" size="s0" disabled>
                         </div>
-                        <div class="col-md-3 pderecha">
-                            <p class="color2 text-center">Mes en letras:</p>
+                        <div class="col-md-3 pderecha ">
+                            <p id="8" class="color2 ">Mes en letras:</p>
                         </div>
                         <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" required>
+                            <input type="text" size="s0" disabled>
                         </div>
                     </div>
                 </div>
@@ -135,6 +136,8 @@
         </div>
     </main>
 
+
+    <script src="script/lab07.js"></script>
 </body>
 
 </html>
