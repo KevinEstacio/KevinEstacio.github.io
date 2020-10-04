@@ -32,12 +32,14 @@ button {
     background-color: #1d6fa9;
     color: #ffffff;
     font-size: 22px;
+    margin: 0px;
 }
 
 .color2 {
     background-color: #b74919;
     color: #ffffff;
     font-size: 22px;
+    margin: 0px;
 }
 
 .tamano {
@@ -65,8 +67,25 @@ button {
 }
 
 .espacio {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dat {
+    background-color: #ffffff;
+    color: #992121;
+    font-size: 22px;
+    width: 205px;
+    margin-left: 33px;
+}
+
+.inp {
+    width: 206px;
+    height: 33px;
+}
+
+.sep {
+    padding-bottom: 5px;
 }
 
 .azul {

@@ -54,16 +54,16 @@
                 <h1>LAB 07: TALLER DE JAVASCRIPT</h1>
             </div>
             <section class="container">
-                <div class="espacio">
+                <div id="uno" class="espacio">
                     <div class="row ">
                         <div class="col-md-3 text-center pderecha">
                             <p id="1" class="color1">Apellidos y nombres:</p>
                         </div>
                         <div class="col-md-4 pderecha tamano">
-                            <input type="text" placeholder="Ingreso apellidos y nombres" size="40">
+                            <input id="nombre" type="text" placeholder="Ingreso apellidos y nombres" size="40">
                         </div>
                         <div class="col-md-2.5">
-                            <button class="extraer">Extraer</button>
+                            <button id="extraerr" class="extraer">Extraer</button>
                         </div>
                         <div class="col-md-2.5">
                             <button id="colorear" class="colorear ">Colorear</button>
@@ -74,51 +74,52 @@
                             <p id="2" class="color1">Fecha de nacimiento:</p>
                         </div>
                         <div class="col-md-9 pderecha">
-                            <input type="date" name="" id="">
+                            <input id="fecha" type="date">
                         </div>
                     </div>
                 </div>
                 <div class="container text-center">
-                    <div class="row ">
-                        <div class="col-md-2 pderecha ">
+                    <div class="row sep">
+                        <div class="col-md-2 pderecha inp">
                             <p id="3" class="color1 ">Apellido Paterno:</p>
                         </div>
-                        <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" disabled>
+                        <div class="col-md-3 pderecha tamano inp">
+                            <p id="ap" class="dat"><input type="text" size="s0" class="inp" disabled></p>
+
                         </div>
-                        <div class="col-md-3 pderecha">
-                            <p id="6" class="color2">Longitud del Paterno:</p>
+                        <div class="col-md-3 pderecha inp">
+                            <p id="6" class="color2">Longitud del Apellido:</p>
                         </div>
-                        <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" disabled>
+                        <div class="col-md-3 pderecha tamano inp">
+                            <p id="lp" class="dat"><input type="text" size="s0" class="inp" disabled></p>
                         </div>
                     </div>
-                    <div class="row text-center">
-                        <div class="col-md-2 pderecha ">
+                    <div class="row text-center sep">
+                        <div class="col-md-2 pderecha tamano inp">
                             <p id="4" class="color1 ">Apellido Materno:</p>
                         </div>
-                        <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" disabled>
+                        <div class="col-md-3 pderecha tamano inp">
+                            <p id="am" class="dat"><input type="text" size="s0" class="inp" disabled></p>
                         </div>
-                        <div class="col-md-3 pderecha">
+                        <div class="col-md-3 pderecha tamano inp">
                             <p id="7" class="color2 ">Edad:</p>
                         </div>
-                        <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" disabled>
+                        <div class="col-md-3 pderecha tamano inp">
+                            <p id="edad" class="dat"><input type="text" size="s0" class="inp" disabled></p>
                         </div>
                     </div>
-                    <div class="row text-center">
+                    <div class="row text-center sep">
                         <div class="col-md-2 pderecha ">
                             <p id="5" class="color1 ">Nombres:</p>
                         </div>
                         <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" disabled>
+                            <p id="nom" class="dat"><input type="text" size="s0" class="inp" disabled></p>
                         </div>
                         <div class="col-md-3 pderecha ">
                             <p id="8" class="color2 ">Mes en letras:</p>
                         </div>
                         <div class="col-md-3 pderecha tamano">
-                            <input type="text" size="s0" disabled>
+                            <p id="mes" class="dat"><input type="text" size="s0" class="inp" disabled></p>
                         </div>
                     </div>
                 </div>
@@ -134,6 +135,7 @@
             <p>Cuando se presione el boton Extraer, se debe mostrar en forma separada apellido paterno, apellido materno y nombres y el mes en letras. Calcular la longitude del apellido y la edad. Cuando se presione en colorear, cambiar el color azul a rojo
                 y visiversa</p>
         </div>
+        <label id="k" for=""></label>
     </main>
 
 
