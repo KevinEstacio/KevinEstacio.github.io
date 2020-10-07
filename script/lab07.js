@@ -1,7 +1,6 @@
 let flag = 1;
 
 function pageLoad() {
-
     let colorear = document.getElementById("colorear");
     let extraer = document.getElementById("extraerr");
     colorear.onclick = cambiarColor;
@@ -17,12 +16,9 @@ function extraerDatos() {
     let anoactual = fechaactual.getFullYear();
     let edad = anoactual - anonacimiento;
     let meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"];
-
-
     let m = fechanacimiento.getMonth();
-
-
     let fm = nom.split(" ");
+
     if (fm.length >= 3 && !isNaN(edad)) {
         let apa = fm[0].slice();
         let ama = fm[1].slice();
@@ -43,12 +39,8 @@ function extraerDatos() {
         alert("Faltan Datos")
     }
 
-
-
-
-
-
 }
+
 
 function cambiarColor() {
 
@@ -63,9 +55,8 @@ function cambiarColor() {
         document.getElementById("6").className = "azul";
         document.getElementById("7").className = "azul";
         document.getElementById("8").className = "azul";
-
-
         flag = 0;
+
     } else {
 
         document.getElementById("1").className = "azul";
@@ -77,10 +68,11 @@ function cambiarColor() {
         document.getElementById("6").className = "rojo";
         document.getElementById("7").className = "rojo";
         document.getElementById("8").className = "rojo";
-
-
         flag = 1;
+
+
     }
+
 
 }
 window.onload = pageLoad;
