@@ -85,6 +85,17 @@ img {
 }
 
 .ti {
+    background-color: #ffffff00;
+    border: 2px solid rgb(255, 255, 255);
     width: 20px;
     height: auto;
+}
+
+.ti2 {
+    width: 240px;
+    height: 180px;
+}
+
+.text-lef {
+    text-align: right;
 }
